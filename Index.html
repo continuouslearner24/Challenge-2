@@ -1,12 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./styles.css" type="text/css"> </link>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mirkhelker, Yogesh Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Yogesh Mirkhelker</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="content-section" id="about">
+      <aside class="title">
+        <h2>About</h2>
+      </aside>
+      <div class="content">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quia, quod est inventore sequi blanditiis earum deleniti aperiam, dicta facilis ea quos atque amet error fugit? Error quidem nemo asperiores! Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, hic. Temporibus id earum cupiditate, eius quia odio libero officiis sunt ratione recusandae voluptatibus minima repellat repellendus pariatur illo delectus dolores.</p>
+      </div>
+    </section>
+
+    <section class="content-section" id="portfolio">
+      <aside class="title">
+        <h2>Portfolio</h2>
+      </aside>
+      <div class="content">
+        <div class="portfolio-container">
+          <div class="portfolio-item">
+            <img src="project1.jpg" alt="Project 1" />
+            <h3>Payroll Tracker</h3>
+            <p>Record your employee's information.</p>
+          </div>
+          <div class="portfolio-item">
+            <img src="project2.jpg" alt="Project 2" />
+            <h3>Personal Blog</h3>
+            <p>Write and share thoughts around the world!</p>
+          </div>
+          <div class="portfolio-item">
+            <img src="project3.jpg" alt="Project 3" />
+            <h3>Task Board</h3>
+            <p>Create, Track, and Delete Tasks.</p>
+          </div>
+          <div class="portfolio-item">
+            <img src="project4.jpg" alt="Project 4" />
+            <h3>Weather Dashboard</h3>
+            <p>Find your city's weather and forcast!</p>
+          </div>
+          <div class="portfolio-item">
+            <img src="project5.jpg" alt="Project 5" />
+            <h3>Regex Tutorial</h3>
+            <p>Learn more about regex functionality.</p>
+          </div>
+          <div class="portfolio-item">
+            <img src="project6.jpg" alt="Project 6" />
+            <h3>My Book Library</h3>
+            <p>React book library link to Google books.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section" id="contact">
+      <aside class="title">
+        <h2>Contact</h2>
+      </aside>
+      <div class="content">
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 YML. All rights reserved.</p>
+    </footer>
+  </body>
 </html>
